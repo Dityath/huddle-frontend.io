@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+}
+
+body {
+    padding: 40px 20px 0 20px;
+}
+
+h1 {
+    font-family: Poppins;
+    font-weight: 400px, 600px;
+    color: white;
+    font-size: 35px;
+}
+
+p {
+    font-family: Open Sans;
+    font-weight: 400px;
+    color: white;
+}
+
+header {
+    padding: 0 20px 20px 20px;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+aside {
+    padding: 0 20px 0 30px;
+    margin: 20px;
+}
+
+.register {
+    background-color: white;
+    border: none;
+    color: hsl(257, 40%, 49%);
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.register:active {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+footer {
+    padding: 0 60px 0 0;
+    float: right;
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+    width: 40px;
+    height: 40px;
+    padding-left: 5px;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: white;
+  }
+
+  .svg-icon path:active,
+  .svg-icon polygon:active,
+  .svg-icon rect:active {
+      fill: hsl(300, 69%, 71%);
+  }
+
+.attribution {
+    padding-top: 60px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
