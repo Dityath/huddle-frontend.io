@@ -93,3 +93,66 @@ SVG Icons - svgicons.sparkk.fr
     font-size: 10px;
     color: white;
 }
+
+@media (max-width: 1000px) {
+    html {
+        background-image: url(images/bg-mobile.svg);
+    }
+
+    body {
+        text-align: center;
+        padding: 40px 30px 0 30px;
+    }
+
+    main {
+        display: inline;
+    }
+
+    aside {
+        padding: 0px 20px 20px 20px;
+    }
+    
+    aside p {
+        padding: 0 0 50px 0;
+    }
+
+    footer {
+        float: none;
+        padding: 0;
+    }
+
+    .svg-icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 760px) {
+    body {
+        padding: 40px 0 0 0;
+    }
+
+    header img {
+        width: 200px;
+    }
+
+    .Illustration {
+        width: 600px;
+    }
+}
+
+@media (max-width: 605px) {
+    .Illustration {
+        width: 500px;
+    }
+}
+
+@media (max-width: 500px) {
+    header img {
+        width: 150px;
+    }
+
+    .Illustration {
+        width: 300px;
+    }
+}
