@@ -27,11 +27,15 @@ p {
 
 header {
     padding: 0 20px 20px 20px;
+    margin: 50px auto 0 auto;
+    max-width: 1350px;
 }
 
 main {
     display: flex;
     padding: 20px;
+    margin: 50px auto 100px auto;
+    max-width: 1350px;
 }
 
 aside {
@@ -92,6 +96,16 @@ SVG Icons - svgicons.sparkk.fr
     text-align: center;
     font-size: 10px;
     color: white;
+}
+
+@media (max-width: 1440px) {
+    header {
+        margin: 20px auto 0 auto;
+    }
+
+    main {
+        margin: 0px auto 100px auto;
+    }
 }
 
 @media (max-width: 1000px) {
